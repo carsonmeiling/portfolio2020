@@ -1,12 +1,16 @@
 import React from 'react';
 import styles from '../styles/toplanding.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-solid-svg-icons';
 
 const TopLanding = () => {
 
   return(
     <div className="topLanding">
       <div className="links">
-        <a href='twitter'>Twitter</a>
+        <a href='twitter'>
+          <FontAwesomeIcon icon={faGithub} />
+          </a>
         <a href='instagram'>Insta</a>
         <a href='github'>Github</a>
       </div>
