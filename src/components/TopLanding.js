@@ -1,22 +1,25 @@
 import React from 'react';
 import styles from '../styles/toplanding.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-solid-svg-icons';
+import { Icon } from 'semantic-ui-react';
 
 const TopLanding = () => {
 
   return(
     <div className="topLanding">
       <div className="links">
-        <a href='twitter'>
-          <FontAwesomeIcon icon={faGithub} />
-          </a>
-        <a href='instagram'>Insta</a>
-        <a href='github'>Github</a>
+        <a href='https://twitter.com/CarsonMeiling'>
+          <Icon name='twitter square' size='huge' color="black" />
+        </a>
+        <a href='https://www.instagram.com/carson.meiling/'>
+          <Icon name='instagram' size='huge' color='black'/>
+        </a>
+        <a href='https://github.com/carsonmeiling'>
+          <Icon name='github square' size='huge' color='black' />
+        </a>
       </div>
       <div className='header'>
         <h3>I'm Carson.</h3>
-        <h4>A Web Developer</h4>
+        <h4>A Utah based Developer</h4>
       </div>
     </div>
   )

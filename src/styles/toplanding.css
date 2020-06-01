@@ -1,5 +1,5 @@
 .topLanding {
-  background-image: url("../images/rioGrande.jpg");
+  background-image: url("../images/skyler-smith-snow.jpg");
   height: 90vh;
   background-size: cover;
   display: flex;
@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: flex-start;
 }
+
+/* background image from Unsplash, Skyler Smith */
 
 .links {
   color: white;
