@@ -18,8 +18,8 @@ const TopLanding = () => {
         </a>
       </div>
       <div className='header'>
-        <h3>I'm Carson.</h3>
-        <h4>A Utah based Developer</h4>
+        <h3 className="name" >I'm Carson.</h3>
+        <h4 className='desc' >A Utah based Developer.</h4>
       </div>
     </div>
   )
