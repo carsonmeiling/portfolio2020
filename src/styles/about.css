@@ -1,0 +1,19 @@
+.about {
+  background-color: whitesmoke;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-desc {
+  position: relative;
+  max-width: 400px;
+  overflow-wrap: break-word;
+
+}
+
+h2 {
+  width: 800px;
+}

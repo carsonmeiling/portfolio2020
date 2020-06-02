@@ -10,8 +10,8 @@ const TopLanding = () => {
         <a href='https://twitter.com/CarsonMeiling'>
           <Icon name='twitter square' size='huge' color="black" />
         </a>
-        <a href='https://www.instagram.com/carson.meiling/'>
-          <Icon name='instagram' size='huge' color='black'/>
+        <a href='https://www.linkedin.com/in/carsonmeiling/'>
+          <Icon name='linkedin' size='huge' color='black'/>
         </a>
         <a href='https://github.com/carsonmeiling'>
           <Icon name='github square' size='huge' color='black' />
