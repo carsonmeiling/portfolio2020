@@ -6,7 +6,7 @@
     "picture": "",
     "github": "https://github.com/carsonmeiling/lunch-finder",
     "url": "",  
-    "languages": "React",
+    "languages": "React"
   },
   {
     "id": 2,
@@ -15,24 +15,24 @@
     "picture": "",  
     "github": "https://github.com/devpointlabs/gym-pact",  
     "url": "https://gympact.herokuapp.com/",  
-    "languages": "React on Rails, Postgresql",
+    "languages": "React on Rails, Postgresql"
   },
   {
     "id": 3,
     "name": "BlackJack" ,
     "desc": "Simple game of blackjack, built using vanilla js.",
-    "picture": ,  
+    "picture": "",  
     "github": "https://github.com/carsonmeiling/BlackJack",  
     "url": "",  
-    "languages": "Vanilla JS",
+    "languages": "Vanilla JS"
   },
   {
     "id": 4,
     "name":"Portfolio" ,
-    "desc": ,
-    "picture": ,  
+    "desc": "",
+    "picture": "",  
     "github": "https://github.com/carsonmeiling/portfolio2020",  
     "url": "",  
-    "languages": "",
-  },
+    "languages": ""
+  }
 ]
