@@ -6,19 +6,29 @@ import styles from '../styles/projectCard.css';
 const ProjectCard = (props) => {
   const project = props.project
 
-  console.log(project)
 
   return(
-    <Card>
-      <Card.Content >
-        <Card.Header>{project.name}</Card.Header>
-        <Image src={project.picture}  />
-        <Card.Description>{project.desc}</Card.Description>
-      </Card.Content>
-      
-    </Card>
+  <Card>
+    <Card.Content >
+      <Image src={project.picture}  />
+      <Card.Header>{project.name}</Card.Header>\\
+      <Card.Meta></Card.Meta>
+      <Card.Description>{project.desc}</Card.Description>
+    </Card.Content>
+    
+  </Card>
     )
   }
   
   
   export default ProjectCard;
+      // <div className="card">
+      //   <img src={pic}></img>
+      //   <div className="cardContent">
+      //     <h2>{project.name}</h2>
+      //     <p>{project.desc}</p>
+      //     <div className="cardLinks">
+      //       <a>Github</a>
+      //     </div>
+      //   </div>
+      // </div>

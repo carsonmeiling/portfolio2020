@@ -10,14 +10,15 @@ const Projects = () => {
 
   return(
     <div className="projects">
-      <Card.Group>
-
-      {
-        projects.map(project => (
-          <ProjectCard key={project.id} project={project} />
-          ))
-        }  
-      </Card.Group>
+      <div className="cardGroup">
+        <Card.Group>
+        {
+          projects.map(project => (
+            <ProjectCard key={project.id} project={project} />
+            ))
+          }  
+        </Card.Group>
+      </div>
     </div>
   )
 }

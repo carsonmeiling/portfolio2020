@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Fork and Spoon" ,
     "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants in the area of their choice",
-    "picture": "",
+    "picture": "https://unsplash.com/photos/H0OSpZ4vJDo",
     "github": "https://github.com/carsonmeiling/lunch-finder",
     "url": "",  
     "languages": "React"
@@ -25,14 +25,6 @@
     "github": "https://github.com/carsonmeiling/BlackJack",  
     "url": "",  
     "languages": "Vanilla JS"
-  },
-  {
-    "id": 4,
-    "name":"Portfolio" ,
-    "desc": "",
-    "picture": "",  
-    "github": "https://github.com/carsonmeiling/portfolio2020",  
-    "url": "",  
-    "languages": ""
   }
+ 
 ]

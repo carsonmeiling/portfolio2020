@@ -1,4 +1,11 @@
 .projects {
+  background-color: whitesmoke;
+  height: 90vh;
+}
+
+.cardGroup {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  
 }
