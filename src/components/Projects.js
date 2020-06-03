@@ -11,13 +11,13 @@ const Projects = () => {
   return(
     <div className="projects">
       <div className="cardGroup">
-        <Card.Group>
+        {/* <Card.Group> */}
         {
           projects.map(project => (
             <ProjectCard key={project.id} project={project} />
             ))
           }  
-        </Card.Group>
+        {/* </Card.Group> */}
       </div>
     </div>
   )

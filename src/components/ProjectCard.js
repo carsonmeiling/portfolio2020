@@ -8,27 +8,29 @@ const ProjectCard = (props) => {
 
 
   return(
-  <Card>
-    <Card.Content >
-      <Image src={project.picture}  />
-      <Card.Header>{project.name}</Card.Header>\\
-      <Card.Meta></Card.Meta>
-      <Card.Description>{project.desc}</Card.Description>
-    </Card.Content>
+  // <Card>
+  //   <Card.Content >
+  //     <Image src={project.picture}  />
+  //     <Card.Header>{project.name}</Card.Header>\\
+  //     <Card.Meta></Card.Meta>
+  //     <Card.Description>{project.desc}</Card.Description>
+  //   </Card.Content>
     
-  </Card>
+  // </Card>
+      <div className="card">
+        <div className="cardImage">
+          <img src={pic}></img>
+        </div>
+        <div className="cardContent">
+          <h2 className="projectName" >{project.name}</h2>
+          <p className="projectDesc" >{project.desc}</p>
+          <div className="cardLinks">
+            <a href={project.github} >Github</a>
+          </div>
+        </div>
+      </div>
     )
   }
   
   
   export default ProjectCard;
-      // <div className="card">
-      //   <img src={pic}></img>
-      //   <div className="cardContent">
-      //     <h2>{project.name}</h2>
-      //     <p>{project.desc}</p>
-      //     <div className="cardLinks">
-      //       <a>Github</a>
-      //     </div>
-      //   </div>
-      // </div>
