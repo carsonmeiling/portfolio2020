@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Fork from '../images/ForkSpoon.jpg';
 import Gympact from '../images/Gympact.jpg';
-import Blackjack from '../images/Blackjack';
+import Blackjack from '../images/Blackjack.jpg';
 import styles from '../styles/projectCard.css';
 
 const ProjectCard = (props) => {
