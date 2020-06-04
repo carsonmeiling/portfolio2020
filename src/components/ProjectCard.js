@@ -1,29 +1,30 @@
-import React from 'react';
-import { Card, Image } from 'semantic-ui-react';
-import pic from '../images/clouds.jpg';
+import React, {useState} from 'react';
+import Fork from '../images/ForkSpoon.jpg';
+import Gympact from '../images/Gympact.jpg';
+import Blackjack from '../images/Blackjack';
 import styles from '../styles/projectCard.css';
 
 const ProjectCard = (props) => {
   const project = props.project
 
-
+  const pic = () => {
+    if(project.id === 1){
+      return Fork;
+    }else if(project.id === 2){
+      return Gympact;
+    }else if(project.id === 3){
+      return Blackjack;
+    } 
+  }
   return(
-  // <Card>
-  //   <Card.Content >
-  //     <Image src={project.picture}  />
-  //     <Card.Header>{project.name}</Card.Header>\\
-  //     <Card.Meta></Card.Meta>
-  //     <Card.Description>{project.desc}</Card.Description>
-  //   </Card.Content>
-    
-  // </Card>
+  
       <div className="card">
         <div className="cardImage">
-          <img src={pic}></img>
+          <img src={pic()} alt="No pic"></img>
         </div>
         <div className="cardContent">
-          <h2 className="projectName" >{project.name}</h2>
-          <p className="projectDesc" >{project.desc}</p>
+          <h2 className="projectName">{project.name}</h2>
+          <p className="projectDesc">{project.desc}</p>
           <div className="cardLinks">
             <a href={project.github} >Github</a>
           </div>
