@@ -7,20 +7,22 @@ import styles from '../styles/projectCard.css';
 const ProjectCard = (props) => {
   const project = props.project
 
-  const pic = () => {
-    if(project.id === 1){
-      return Fork;
-    }else if(project.id === 2){
-      return Gympact;
-    }else if(project.id === 3){
-      return Blackjack;
-    } 
-  }
+  // const pic = () => {
+  //   if(project.id === 1){
+  //     return Fork;
+  //   }else if(project.id === 2){
+  //     return Gympact;
+  //   }else if(project.id === 3){
+  //     return Blackjack;
+  //   } 
+  // }
   return(
   
       <div className="card">
         <div className="cardImage">
-          <img src={pic()} alt="No pic"></img>
+          {/* <img src={pic()} alt="No pic"></img>
+           */}
+           <img src={process.env.PUBLIC_URL + `/assets/${project.picture}`} />
         </div>
         <div className="cardContent">
           <h2 className="projectName">{project.name}</h2>

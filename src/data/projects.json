@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Fork and Spoon" ,
     "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants in the area of their choice",
-    "picture": "../images/ForkSpoonScreenshot.jpg",
+    "picture": "ForkSpoon.jpg",
     "github": "https://github.com/carsonmeiling/lunch-finder",
     "url": "",  
     "languages": "React"
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Gym-Pact" ,
     "desc": "Capstone project with 2 others at Dev Point Labs. GymPact allows users to create workouts and interact with other users. Can follow and be followed, edit workouts, comment onthers.",
-    "picture": "",  
+    "picture": "Gympact.jpg",  
     "github": "https://github.com/devpointlabs/gym-pact",  
     "url": "https://gympact.herokuapp.com/",  
     "languages": "React on Rails, Postgresql"
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "BlackJack" ,
     "desc": "Simple game of blackjack, built using vanilla js.",
-    "picture": "",  
+    "picture": "Blackjack.jpg",  
     "github": "https://github.com/carsonmeiling/BlackJack",  
     "url": "",  
     "languages": "Vanilla JS"
