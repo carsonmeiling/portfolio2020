@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 
 const Tech = () => {
+  const [skills, setSkills] = useState([])
 
   return(
     <div>
