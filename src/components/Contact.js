@@ -7,24 +7,24 @@ const Contact = () => {
 
   return(
     <div className='contact'>
-      <div className='contactForm'>
-        <h2>Get in Touch</h2>
+      <div >
+        <h2 className='contact-header'>Get in Touch</h2>
       </div>
       <div className='contact-icon'>
-        <Icon name="mail outline" />
-        <a href='mailto:carmc93@gmail.com?subject=Opportunity'>carmc93@gmail.com</a>
+        <Icon name="mail outline" size='large'/>
+        <a className='contact-a' href='mailto:carmc93@gmail.com?subject=Opportunity'>carmc93@gmail.com</a>
+      </div>
+      <div className='contact-icon' >
+        <Icon name='phone' size='large'/>
+        <a className='contact-a' href='tel:+18019716653'>(801) 971-6653</a>
+      </div>
+      <div className='contact-icon' >
+        <Icon name='home' size='large'/>
+        <a className='contact-a' >Bluffdale, Utah</a>
       </div>
       <div className='contact-icon'>
-        <Icon name='phone' />
-        <a href='tel:+18019716653'>(801) 971-6653</a>
-      </div>
-      <div className='contact-icon'>
-        <Icon name='home' />
-        <a>Bluffdale, Utah</a>
-      </div>
-      <div className='contact-icon'>
-        <Icon name='folder open outline' />
-        <a href={Resume} download>Resume PDF</a>
+        <Icon name='folder open outline' size='large'/>
+        <a className='contact-a' href={Resume} download>Resume PDF</a>
       </div>
     </div>
   )
