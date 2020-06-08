@@ -1,0 +1,11 @@
+.contact {
+  height: 30vh;
+  background-color:  #dbdbdb;
+
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+

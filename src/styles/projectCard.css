@@ -4,7 +4,7 @@
   border: solid black 2px ;
   margin: 10px;
   align-items: center;
-  background-color: ;
+  background-color: #888888;
   
   
 }
@@ -22,16 +22,23 @@
 .cardLinks {
   display: flex;
 }
+.gitLink {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
 
 .projectName {
   width: inherit;
   font-family: 'Questrial', sans-serif;
+  color: whitesmoke;
   
 }
 
 .projectDesc {
   text-align: center;
   font-family: 'Rubik', sans-serif;
+  color: whitesmoke;
 }
 
 img {

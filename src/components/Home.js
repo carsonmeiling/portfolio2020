@@ -4,6 +4,8 @@ import TopLanding from './TopLanding';
 import About from './About';
 import Projects from './Projects';
 import Footer from './Footer';
+import Tech from './Tech';
+import Contact from './Contact';
 
 const Home = () => {
 
@@ -12,6 +14,8 @@ const Home = () => {
       <TopLanding />
       <About />
       <Projects />
+      <Tech />
+      <Contact />
       <Footer />
     </div>
   )
