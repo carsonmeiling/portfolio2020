@@ -2,10 +2,10 @@
   display: flex;
   flex-flow: column;
   border: solid black 2px ;
-  /* border-radius: 15px; */
   margin: 10px;
   align-items: center;
   background-color: ;
+  
   
 }
 
@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-
+  
 }
 
 .cardLinks {
@@ -25,10 +25,13 @@
 
 .projectName {
   width: inherit;
+  font-family: 'Questrial', sans-serif;
+  
 }
 
 .projectDesc {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
