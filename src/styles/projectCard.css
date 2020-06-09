@@ -49,8 +49,9 @@
 img {
   width: 350px;
   margin: 10px;
-  border: black solid;
+  border: black solid 1px;
   border-radius: 8px;
+  border-width: 1px;
 }
 
 .cardImage {
