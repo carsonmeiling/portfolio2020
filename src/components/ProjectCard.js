@@ -15,11 +15,11 @@ const ProjectCard = (props) => {
           <h2 className="projectName">{project.name}</h2>
           <p className="projectDesc">{project.desc}</p>
           <div className="cardLinks">
+            <a href={project.github} className='gitLink' >Github</a>
            {
              project.url ? (<a href={project.url} className='gitLink'>Live</a>) : console.log(false)
             
            }
-            <a href={project.github} className='gitLink' >Github</a>
           </div>
         </div>
       </div>

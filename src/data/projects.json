@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Fork and Spoon" ,
-    "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants in the area of their choice.",
+    "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants or other services in the area of their choice.",
     "picture": "ForkSpoon.jpg",
     "github": "https://github.com/carsonmeiling/lunch-finder",
       
