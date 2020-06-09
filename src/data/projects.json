@@ -2,16 +2,16 @@
   {
     "id": 1,
     "name": "Fork and Spoon" ,
-    "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants in the area of their choice",
+    "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants in the area of their choice.",
     "picture": "ForkSpoon.jpg",
     "github": "https://github.com/carsonmeiling/lunch-finder",
-    "url": "",  
+      
     "languages": "React"
   },
   {
     "id": 2,
     "name": "Gym-Pact" ,
-    "desc": "Capstone project with 2 others at Dev Point Labs. GymPact allows users to create workouts and interact with other users. Can follow and be followed, edit workouts, comment onthers.",
+    "desc": "Project with 2 others at Dev Point Labs. GymPact allows users to create workouts and interact with other users. User can follow, be followed and interact with others.",
     "picture": "Gympact.jpg",  
     "github": "https://github.com/devpointlabs/gym-pact",  
     "url": "https://gympact.herokuapp.com/",  
@@ -20,10 +20,10 @@
   {
     "id": 3,
     "name": "BlackJack" ,
-    "desc": "Simple game of blackjack, built using vanilla js.",
+    "desc": "Simple game of blackjack, built using vanilla js. The focus of this game was on the logic, and on manipulating the DOM.",
     "picture": "Blackjack.jpg",  
     "github": "https://github.com/carsonmeiling/BlackJack",  
-    "url": "",  
+      
     "languages": "Vanilla JS"
   }
  

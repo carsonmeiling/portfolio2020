@@ -14,7 +14,6 @@ const Home = () => {
       <TopLanding />
       <About />
       <Projects />
-      <Tech />
       <Contact />
       <Footer />
     </div>
