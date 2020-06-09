@@ -1,19 +1,29 @@
 .about {
   background-color: #dbdbdb;
-  height: 50vh;
+  min-height: 40vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Rubik', sans-serif;
+
 }
 
-.top-desc {
+.top-desc, .bottom-desc {
   position: relative;
-  max-width: 400px;
+  max-width: 40vw;
   overflow-wrap: break-word;
-
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 18px;
+  margin: 20px;
 }
 
-h2 {
-  width: 800px;
+.about-header {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Questrial', sans-serif;
+  color: #30475e;
+
+
 }

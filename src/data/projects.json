@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Gym-Pact" ,
-    "desc": "Project with 2 others at Dev Point Labs. GymPact allows users to create workouts and interact with other users. User can follow, be followed and interact with others.",
+    "desc": "Project with two other students at Dev Point Labs. GymPact allows users to create workouts and interact with other users. User can follow, be followed and interact with others.",
     "picture": "Gympact.jpg",  
     "github": "https://github.com/devpointlabs/gym-pact",  
     "url": "https://gympact.herokuapp.com/",  

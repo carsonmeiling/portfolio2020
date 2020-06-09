@@ -1,6 +1,6 @@
 .footer {
   height: 20vh;
-  background-image: url("../images/zions.jpg");
+  background-image: url("../images/skyler-smith-snow.jpg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,5 +13,6 @@
   display: flex;
   align-items: center;
   font-family: 'Rubik', sans-serif;
+  color: white
 
 }
