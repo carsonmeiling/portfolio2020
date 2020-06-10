@@ -1,7 +1,8 @@
 .topLanding {
   background-image: url("../images/skyler-smith-snow.jpg");
-  height: 90vh;
+  height: 70vh;
   background-size: cover;
+  background-position: bottom;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
@@ -20,7 +21,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  color: white;
   position: absolute;
   left: 20%;
   margin-top: 13%; 
@@ -28,6 +28,7 @@
 }
 
 .name {
+  color: whitesmoke;
   font-size: 5em;
   font-family: 'Rubik', sans-serif;
   

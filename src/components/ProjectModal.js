@@ -13,7 +13,7 @@ const ProjectModal = (props) => {
       }
     >
       <Modal.Header>{project.name}</Modal.Header>
-      <Image src={process.env.PUBLIC_URL + `/assets/${project.picture}`} ></Image>
+      <Image src={process.env.PUBLIC_URL + `/assets/${project.picture}`} size='massive'></Image>
       <Modal.Content>
         <Modal.Description centered>
           <p className='modal-desc' >{project.desc}</p>

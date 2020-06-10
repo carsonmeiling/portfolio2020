@@ -12,7 +12,9 @@ const Projects = () => {
 
   return(
     <div className="projects">
+      
       <div className="cardGroup">
+
         {
           projects.map(project => (
               // <img 
