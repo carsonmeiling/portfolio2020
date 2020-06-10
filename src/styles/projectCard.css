@@ -6,8 +6,6 @@
   margin: 10px;
   align-items: center;
   background-color: #ececec;
-  
-  
 }
 
 .cardContent {
@@ -17,7 +15,6 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  
 }
 
 .cardLinks {
@@ -30,14 +27,12 @@
   color: #30475e;
   text-decoration: none;
   font-size: 18px;
-  
 }
 
 .projectName {
   width: inherit;
   font-family: 'Questrial', sans-serif;
   color: #30475e;
-  
 }
 
 .projectDesc {
@@ -46,17 +41,21 @@
   color: #888888;
 }
 
-img {
+/* img {
   width: 350px;
   margin: 10px;
   border: black solid 1px;
   border-radius: 8px;
   border-width: 1px;
+} */
+
+.project-image {
+  width: 30vw;
+  height: 30vh;
+  object-fit: cover;
 }
 
-.cardImage {
-  
-}
+
 
 
 

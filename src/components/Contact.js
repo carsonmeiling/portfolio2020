@@ -30,9 +30,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
-          <img src={require('../images/profile.jpg')} className='profile-pic' ></img>
-        </div>
+        
       </div>
 
 

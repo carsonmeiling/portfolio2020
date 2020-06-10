@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="cardGroup">
         {
           projects.map(project => (
-            <ProjectCard key={project.id} project={project} />
+              <img src={process.env.PUBLIC_URL + `/assets/${project.picture}`} className='proImage' />
             ))
           }  
       </div>
