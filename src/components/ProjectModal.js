@@ -12,9 +12,10 @@ const ProjectModal = (props) => {
         />
       }
     >
-      <Image src={process.env.PUBLIC_URL + `/assets/${project.picture}`}></Image>
+      <Modal.Header>{project.name}</Modal.Header>
+      <Image src={process.env.PUBLIC_URL + `/assets/${project.picture}`} ></Image>
       <Modal.Content>
-        <Modal.Description >
+        <Modal.Description centered>
           <p className='modal-desc' >{project.desc}</p>
         </Modal.Description>
       </Modal.Content>
