@@ -1,5 +1,6 @@
 .about {
-  background-color: #dbdbdb;
+  /* background-color: #dbdbdb; */
+  background-color: whitesmoke;
   min-height: 40vh;
   display: flex;
   flex-direction: column;

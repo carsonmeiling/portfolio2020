@@ -1,6 +1,7 @@
 .contact {
   min-height: 30vh;
-  background-color:  #dbdbdb;
+  /* background-color:  #dbdbdb; */
+  background-color:  whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
