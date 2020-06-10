@@ -11,15 +11,17 @@
   flex-direction: row;
   justify-content: center;
   align-content: center;
-
-}
-.imageContainer {
-
+  margin-top: 20px;
 }
 
 .proImage {
   width: 35vw;
   height: auto;
   object-fit: cover;
+}
 
+/* img hover */
+
+.proImage:hover {
+  opacity: .5;
 }

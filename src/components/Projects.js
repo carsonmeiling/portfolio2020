@@ -13,7 +13,12 @@ const Projects = () => {
       <div className="cardGroup">
         {
           projects.map(project => (
-              <img src={process.env.PUBLIC_URL + `/assets/${project.picture}`} className='proImage' />
+              <img 
+                src={process.env.PUBLIC_URL + `/assets/${project.picture}`} 
+                key={project.id}
+                onClick={() => {}}
+                className='proImage' 
+              />
             ))
           }  
       </div>
