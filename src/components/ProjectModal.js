@@ -37,7 +37,7 @@ const ProjectModal = (props) => {
           </Modal.Description> : console.log('no desc')
         }
         {
-          project.picture2 ? 
+          project.picture3 ? 
           <Image 
           src={process.env.PUBLIC_URL + `/assets/${project.picture3}`} 
           size='massive'>
@@ -50,7 +50,7 @@ const ProjectModal = (props) => {
           </Modal.Description> : console.log('no desc')
         }
         {
-          project.picture2 ? 
+          project.picture4 ? 
           <Image 
           src={process.env.PUBLIC_URL + `/assets/${project.picture4}`} 
           size='massive'>
@@ -63,7 +63,7 @@ const ProjectModal = (props) => {
           </Modal.Description> : console.log('no desc')
         }
         <Button color='black' href={project.github}>
-          GitHub
+          GitHub Repo
         </Button>
         {
           project.url ? <Button color='black' href={project.url}>Live</Button> : console.log('no live')

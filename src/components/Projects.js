@@ -12,7 +12,7 @@ const Projects = () => {
 
   return(
     <div className="projects">
-      
+      <h2 className='project-header'>Projects</h2>
       <div className="cardGroup">
 
         {
