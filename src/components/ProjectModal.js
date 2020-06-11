@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Header, Image, Modal } from 'semantic-ui-react';
+import { Button, Image, Modal } from 'semantic-ui-react';
 import styles from '../styles/modal.css';
 
 const ProjectModal = (props) => {
@@ -66,7 +66,7 @@ const ProjectModal = (props) => {
           GitHub Repo
         </Button>
         {
-          project.url ? <Button color='black' href={project.url}>Live</Button> : console.log('no live')
+          project.url ? <Button color='black' href={project.url}>Live View</Button> : console.log('no live')
         }
       </Modal.Content>
      
