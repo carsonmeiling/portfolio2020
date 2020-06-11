@@ -17,7 +17,7 @@ const TopLanding = () => {
           <Icon name='github square' size='huge' color='black' />
         </a>
       </div>
-      <div className='header'>
+      <div className='landing-header'>
         <h3 className="name" >I'm Carson.</h3>
         <h4 className='desc' >A Utah based Developer.</h4>
       </div>

@@ -1,5 +1,10 @@
 
 .modal-desc {
   font-family: 'Rubik', sans-serif;
+  padding: 0;
 
+}
+
+.modal-pic {
+  max-width: 50vw;
 }

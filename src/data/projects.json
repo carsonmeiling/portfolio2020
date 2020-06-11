@@ -11,8 +11,14 @@
   {
     "id": 2,
     "name": "Gym-Pact" ,
-    "desc": "Project with two other students at Dev Point Labs. GymPact allows users to create workouts and interact with other users. User can follow, be followed and interact with others.",
+    "desc": "Project with two other students at Dev Point Labs. GymPact allows users to create workouts, edit their profiles, and interact with other users. Users can follow, be followed and comment on other users workouts.",
+    "desc2": "Users will see recent posts in their feed, or they can switch to view only those they follow.",
+    "desc3": "Each workout on feed can be clicked into to view workout details, along with the associated comments.",
+    "desc4": "User profiles show followers, followees, and all created workouts.",
     "picture": "Gympact.jpg",  
+    "picture2": "gympactfeed.png",  
+    "picture3": "gympactcard.png",  
+    "picture4": "gympactprofile.png",  
     "github": "https://github.com/devpointlabs/gym-pact",  
     "url": "https://gympact.herokuapp.com/",  
     "languages": "React on Rails, Postgresql"

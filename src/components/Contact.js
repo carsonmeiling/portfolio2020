@@ -10,11 +10,13 @@ const Contact = () => {
       <div >
         <h2 className='contact-header'>Get in Touch</h2>
       </div>
-      <div className='content'>
+      <div className='contact-content'>
         <div className='info'>
           <div className='contact-icon'>
             <Icon name="mail outline" size='large'/>
-            <a className='contact-a' href='mailto:carmc93@gmail.com?subject=Opportunity'>carmc93@gmail.com</a>
+            <a className='contact-a' 
+              href='mailto:carmc93@gmail.com?subject=Opportunity'
+            >carmc93@gmail.com</a>
           </div>
           <div className='contact-icon' >
             <Icon name='phone' size='large'/>

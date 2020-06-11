@@ -20,10 +20,12 @@
   width: 35vw;
   height: auto;
   object-fit: cover;
+  opacity: .3; 
+  color: #30475e; 
 }
 
 /* img hover */
 
 .proImage:hover {
-  opacity: .5;
+  opacity: 1;
 }
