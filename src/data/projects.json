@@ -26,8 +26,10 @@
   {
     "id": 3,
     "name": "BlackJack" ,
-    "desc": "Simple game of blackjack, built using vanilla js. The focus of this game was on the logic, and on manipulating the DOM.",
+    "desc": "Simple game of blackjack, built using vanilla js, html, and css. The focus of this game was on the logic, and on manipulating the DOM.",
     "picture": "Blackjack.jpg",  
+    "picture2": "Blackjackplay.png",  
+    "picture3": "Blackjackwin.png",  
     "github": "https://github.com/carsonmeiling/BlackJack",  
       
     "languages": "Vanilla JS"

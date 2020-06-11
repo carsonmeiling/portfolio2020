@@ -15,7 +15,7 @@ const Contact = () => {
           <div className='contact-icon'>
             <Icon name="mail outline" size='large'/>
             <a className='contact-a' 
-              href='mailto:carmc93@gmail.com?subject=Opportunity'
+              href='mailto:carmc93@gmail.com?subject=Job Opportunity'
             >carmc93@gmail.com</a>
           </div>
           <div className='contact-icon' >
