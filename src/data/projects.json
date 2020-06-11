@@ -3,7 +3,11 @@
     "id": 1,
     "name": "Fork and Spoon" ,
     "desc": "Uses Yelp's Developer Tools to render data. Helps users find popular restaurants or other services in the area of their choice.",
+    "desc2": "The focus of this was to work with a third party API, and learn how to render the new data.",
+    "desc3": "Each business can be shown more in depth.",
     "picture": "ForkSpoon.jpg",
+    "picture2": "DataRender.png",
+    "picture3": "BusinessShow.png",
     "github": "https://github.com/carsonmeiling/lunch-finder",
       
     "languages": "React"
@@ -27,6 +31,7 @@
     "id": 3,
     "name": "BlackJack" ,
     "desc": "Simple game of blackjack, built using vanilla js, html, and css. The focus of this game was on the logic, and on manipulating the DOM.",
+    "desc2": "This project taught me how to plan ahead and how to use function calls in the correct order.",
     "picture": "Blackjack.jpg",  
     "picture2": "Blackjackplay.png",  
     "picture3": "Blackjackwin.png",  
