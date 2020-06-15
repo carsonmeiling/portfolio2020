@@ -42,14 +42,28 @@
 @media (max-width: 600px) {
   .cardGroup {
     flex-direction: column;
+  }
+  
+  .proImage {
+    width: 100vw;
+  }
+  
+  .proImage {
+    opacity: 1;
+  }
+}
 
+@media (max-width: 1112px) {
+
+  .cardGroup {
+    flex-direction: column;
+  }
+  
+  .proImage {
+    opacity: 1;
   }
 
   .proImage {
     width: 100vw;
-  }
-
-  .proImage {
-    opacity: 1;
   }
 }
