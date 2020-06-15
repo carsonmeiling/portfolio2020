@@ -50,3 +50,19 @@
   width: 300px;
 
 }
+
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-pic {
+    margin-right: 0;
+  }
+
+  .top-desc, .bottom-desc {
+    max-width: 80vw;
+  }
+  
+}

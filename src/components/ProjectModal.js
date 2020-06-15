@@ -13,6 +13,7 @@ const ProjectModal = (props) => {
         className='proImage'
         size='fullscreen'
       />}
+      closeIcon
     >
       <Modal.Content>
         <h3>{project.name}</h3>
